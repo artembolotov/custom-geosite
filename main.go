@@ -135,12 +135,12 @@ func encodeDomain(typ int, value string) []byte {
 //	field 1: domain (repeated embedded message)
 //	field 2: tag    (string)
 func encodeGeoSite(tag string, domains [][]byte) []byte {
-	var b []byte
-	for _, d := range domains {
-		b = appendBytesField(b, 1, d)
-	}
-	b = appendStringField(b, 2, tag)
-	return b
+    var b []byte
+    b = appendStringField(b, 1, tag) 
+    for _, d := range domains {
+        b = appendBytesField(b, 2, d) 
+    }
+    return b
 }
 
 // encodeGeoSiteList serializes a GeoSiteList message.
