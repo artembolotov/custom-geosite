@@ -4,8 +4,6 @@
 # regex:   — regexp
 # no prefix — same as domain:
 
-whatismyipaddress.com
-
 # google
 google.com
 google.ru
@@ -83,3 +81,4 @@ yandex.com
 yandex.net
 yandex.ru
 yastatic.net
+whatismyipaddress.com
