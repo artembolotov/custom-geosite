@@ -131,15 +131,16 @@ func encodeDomain(typ int, value string) []byte {
 }
 
 // encodeGeoSite serializes a GeoSite message.
+// Field numbers match v2ray-core routercommon/common.pb.go:
 //
-//	field 1: domain (repeated embedded message)
-//	field 2: tag    (string)
+//	field 1: country_code (string)          — tag used in geosite: lookups
+//	field 2: domain       (repeated message)
 func encodeGeoSite(tag string, domains [][]byte) []byte {
 	var b []byte
+	b = appendStringField(b, 1, tag)
 	for _, d := range domains {
-		b = appendBytesField(b, 1, d)
+		b = appendBytesField(b, 2, d)
 	}
-	b = appendStringField(b, 2, tag)
 	return b
 }
 
