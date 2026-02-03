@@ -23,7 +23,7 @@ jobs:
         run: |
           go run .
           mkdir output
-          cp geosite.dat output/
+          cp custom.dat output/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
