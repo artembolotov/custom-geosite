@@ -38,7 +38,8 @@ func main() {
 			domains = append(domains, encodeDomain(e.typ, e.value))
 		}
 
-		geoSites = append(geoSites, encodeGeoSite(tag, domains))
+		// country_code must be UPPERCASE — v2ray/xray compare it byte-exact
+		geoSites = append(geoSites, encodeGeoSite(strings.ToUpper(tag), domains))
 		fmt.Printf("[%s] %d domains\n", tag, len(entries))
 	}
 
