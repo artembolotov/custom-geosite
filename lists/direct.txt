@@ -7,31 +7,10 @@
 # google
 google.com
 google.ru
-gstatic.com
-googleapis.com
-googleusercontent.com
-ggpht.com
 gmail.com
-goo.gl
-android.com
+ggpht.com
 chrome.com
-chromium.org
-googleadservices.com
-googlesyndication.com
-googletagmanager.com
-googletagservices.com
-doubleclick.net
-recaptcha.net
-ampproject.org
-google-analytics.com
-googleanalytics.com
-google.org
-blogger.com
-blogspot.com
-ytimg.com
-withgoogle.com
-withyoutube.com
-
+android.com
 
 # russian whitelist
 2gis.com
@@ -81,3 +60,4 @@ yandex.com
 yandex.net
 yandex.ru
 yastatic.net
+2ip.ru
