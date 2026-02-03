@@ -10,7 +10,6 @@ google.ru
 gstatic.com
 googleapis.com
 googleusercontent.com
-googlevideo.com
 ggpht.com
 gmail.com
 goo.gl
