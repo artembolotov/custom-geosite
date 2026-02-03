@@ -81,5 +81,3 @@ yandex.com
 yandex.net
 yandex.ru
 yastatic.net
-whatismyipaddress.com
-2ip.ru
