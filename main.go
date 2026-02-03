@@ -48,11 +48,11 @@ func main() {
 	}
 
 	out := encodeGeoSiteList(geoSites)
-	if err := os.WriteFile("custom.dat", out, 0644); err != nil {
+	if err := os.WriteFile("geosite.dat", out, 0644); err != nil {
 		fmt.Fprintf(os.Stderr, "error writing custom.dat: %v\n", err)
 		os.Exit(1)
 	}
-	fmt.Printf("done: custom.dat (%d bytes)\n", len(out))
+	fmt.Printf("done: geosite.dat (%d bytes)\n", len(out))
 }
 
 type domainEntry struct {
