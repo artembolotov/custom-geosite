@@ -1,0 +1,8 @@
+# proxy — route through VPN
+# full:    — exact host
+# domain:  — host + all subdomains
+# regex:   — regexp
+# no prefix — same as domain:
+
+youtube.com
+googlevideo.com

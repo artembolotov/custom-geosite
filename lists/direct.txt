@@ -1,0 +1,8 @@
+# direct — bypass proxy
+# full:    — exact host
+# domain:  — host + all subdomains
+# regex:   — regexp
+# no prefix — same as domain:
+
+google.com
+google.ru
