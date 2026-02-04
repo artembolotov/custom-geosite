@@ -8,7 +8,6 @@
 google.com
 google.ru
 gmail.com
-ggpht.com
 chrome.com
 android.com
 

@@ -4,5 +4,6 @@
 # regex:   — regexp
 # no prefix — same as domain:
 
-youtube.com
-googlevideo.com
+2ip.ru
+facetime.apple.com
+facetimemedia.apple.com
