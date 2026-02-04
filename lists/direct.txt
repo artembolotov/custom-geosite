@@ -59,4 +59,3 @@ yandex.com
 yandex.net
 yandex.ru
 yastatic.net
-2ip.ru
