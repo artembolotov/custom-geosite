@@ -5,9 +5,9 @@
 # no prefix — same as domain:
 
 # google
-google.com
-google.ru
-gmail.com
+# google.com
+# google.ru
+# gmail.com
 
 # russian whitelist
 1tv.ru
