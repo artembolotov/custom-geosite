@@ -5,6 +5,5 @@
 # no prefix — same as domain:
 
 apis.google.com
-clients6.google.com
 facetime.apple.com
 facetimemedia.apple.com
