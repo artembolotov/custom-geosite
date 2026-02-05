@@ -5,8 +5,7 @@
 # no prefix — same as domain:
 
 # google
-google.com
-gstatic.com
+www.google.com
 
 # russian whitelist
 1tv.ru
