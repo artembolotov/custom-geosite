@@ -4,5 +4,6 @@
 # regex:   — regexp
 # no prefix — same as domain:
 
+apis.google.com
 facetime.apple.com
 facetimemedia.apple.com
