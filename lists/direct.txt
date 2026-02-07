@@ -9,6 +9,7 @@ www.google.com
 
 #drive2
 drive2.ru
+d-cd.net
 
 # russian whitelist
 1tv.ru
