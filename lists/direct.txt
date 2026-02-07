@@ -7,6 +7,9 @@
 # google
 www.google.com
 
+#drive2
+drive2.ru
+
 # russian whitelist
 1tv.ru
 2gis.com
