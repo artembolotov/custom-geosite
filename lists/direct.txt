@@ -7,6 +7,10 @@
 # google
 www.google.com
 
+#drive2
+drive2.ru
+d-cd.net
+
 # russian whitelist
 1tv.ru
 2gis.com
@@ -92,7 +96,6 @@ ntv.ru
 ok.ru
 okcdn.ru
 okko.tv
-oneme.ru
 otr-online.ru
 ozon.ru
 ozone.ru
